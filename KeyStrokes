@@ -26,13 +26,13 @@
 			keystroke.Parent = ScreenGui
 			keystroke.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			keystroke.BackgroundTransparency = 1.000
-			keystroke.Position = UDim2.new(-0.00722312089, 0, 0.690598845, 0)
-			keystroke.Size = UDim2.new(0, 285, 0, 287)
+			keystroke.Position = UDim2.new(0.0722312089, 2, 0.5, 0)
+			keystroke.Size = UDim2.new(0, 280, 0, 282)
 			
 			AKey.Name = "AKey"
 			AKey.Parent = keystroke
-			AKey.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-			AKey.BackgroundTransparency = 0.450
+			AKey.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+			AKey.BackgroundTransparency = 0
 			AKey.Position = UDim2.new(0.0454545468, 0, 0.536585391, 0)
 			AKey.Size = UDim2.new(0, 49, 0, 49)
 			
@@ -46,13 +46,13 @@
 			ALabel.Size = UDim2.new(0, 62, 0, 50)
 			ALabel.Font = Enum.Font.FredokaOne
 			ALabel.Text = "A"
-			ALabel.TextColor3 = Color3.fromRGB(77, 107, 149)
+			ALabel.TextColor3 = Color3.fromRGB(5, 112, 252)
 			ALabel.TextSize = 32.000
 			
 			SKey.Name = "SKey"
 			SKey.Parent = keystroke
-			SKey.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-			SKey.BackgroundTransparency = 0.450
+			SKey.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+			SKey.BackgroundTransparency = 0
 			SKey.Position = UDim2.new(0.238436997, 0, 0.536585391, 0)
 			SKey.Size = UDim2.new(0, 49, 0, 49)
 			
@@ -66,13 +66,13 @@
 			SLabel.Size = UDim2.new(0, 62, 0, 50)
 			SLabel.Font = Enum.Font.FredokaOne
 			SLabel.Text = "S"
-			SLabel.TextColor3 = Color3.fromRGB(77, 107, 149)
+			SLabel.TextColor3 = Color3.fromRGB(5, 112, 252)
 			SLabel.TextSize = 32.000
 			
 			DKey.Name = "DKey"
 			DKey.Parent = keystroke
-			DKey.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-			DKey.BackgroundTransparency = 0.450
+			DKey.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+			DKey.BackgroundTransparency = 0
 			DKey.Position = UDim2.new(0.431419432, 0, 0.540069699, 0)
 			DKey.Size = UDim2.new(0, 49, 0, 49)
 			
@@ -86,13 +86,13 @@
 			DLabel.Size = UDim2.new(0, 62, 0, 50)
 			DLabel.Font = Enum.Font.FredokaOne
 			DLabel.Text = "D"
-			DLabel.TextColor3 = Color3.fromRGB(77, 107, 149)
+			DLabel.TextColor3 = Color3.fromRGB(5, 112, 252)
 			DLabel.TextSize = 32.000
 			
 			WKey.Name = "WKey"
 			WKey.Parent = keystroke
-			WKey.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-			WKey.BackgroundTransparency = 0.450
+			WKey.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+			WKey.BackgroundTransparency = 0
 			WKey.Position = UDim2.new(0.238436982, 0, 0.347000003, 0)
 			WKey.Size = UDim2.new(0, 49, 0, 49)
 			
@@ -106,13 +106,13 @@
 			WLabel.Size = UDim2.new(0, 62, 0, 50)
 			WLabel.Font = Enum.Font.FredokaOne
 			WLabel.Text = "W"
-			WLabel.TextColor3 = Color3.fromRGB(77, 107, 149)
+			WLabel.TextColor3 = Color3.fromRGB(5, 112, 252)
 			WLabel.TextSize = 32.000
 			
 			SpaceBar.Name = "SpaceBar"
 			SpaceBar.Parent = keystroke
-			SpaceBar.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-			SpaceBar.BackgroundTransparency = 0.450
+			SpaceBar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+			SpaceBar.BackgroundTransparency = 0
 			SpaceBar.Position = UDim2.new(0.0454544872, 0, 0.742160261, 0)
 			SpaceBar.Size = UDim2.new(0, 161, 0, 31)
 			
@@ -126,7 +126,7 @@
 			SpaceBarLabel.Size = UDim2.new(0, 62, 0, 50)
 			SpaceBarLabel.Font = Enum.Font.FredokaOne
 			SpaceBarLabel.Text = "_____"
-			SpaceBarLabel.TextColor3 = Color3.fromRGB(77, 107, 149)
+			SpaceBarLabel.TextColor3 = Color3.fromRGB(102, 0, 204)
 			SpaceBarLabel.TextSize = 32.000
 			
 			local UserInputService = game:GetService("UserInputService")
@@ -142,10 +142,10 @@
 			local wButton = WKey
 			
 			
-			local litColor = Color3.fromRGB(220, 208, 255)
+			local litColor = Color3.fromRGB(210, 206, 237)
 			
 			
-			local unlitColor = Color3.fromRGB(34, 34, 34)
+			local unlitColor = Color3.fromRGB(0, 0, 0)
 			
 			
 			UserInputService.InputBegan:Connect(function(input, gameProcessed)
